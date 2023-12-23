@@ -38,7 +38,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: rgb(54, 54, 54);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -74,7 +74,7 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: rgb(123, 110, 125);
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -83,18 +83,18 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: #fffefe;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid rgb(32, 29, 31);
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: rgb(38, 31, 37);
 	height: 25px;
 }
 
@@ -117,8 +117,12 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: rgb(255, 255, 255);
 	text-align: center;
+}
+
+p {
+  color: #ccc;
 }
 
 .foto img {
@@ -219,7 +223,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: rgb(239, 189, 236);
 }
 
 .experience-icon {
@@ -233,7 +237,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #cac8ca !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -341,7 +345,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: rgb(42, 39, 42);
 	padding-bottom: 5%;
 }
 
@@ -376,12 +380,9 @@ header h1 {
 	}
 }
 
-#skills {
-	background: #1F1F1F;
-	min-height: 200px;
-	width: 100%;
-	overflow: hidden;
-	padding-bottom: 10%;
+.background {
+  background-color: rgb(0, 0, 0);
+  opacity: 60%;
 }
 
 .section-title {
@@ -414,7 +415,7 @@ footer {
 
 footer a,
 footer a:visited {
-	color: #fff;
+	color: #ffffff;
 }
 
 footer a:hover,
