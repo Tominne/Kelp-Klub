@@ -17,7 +17,7 @@ html {
 
 .title-container {
 	height: 50px;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .title-styles {
@@ -40,18 +40,19 @@ header {
 	background-color: rgb(54, 54, 54);
 	-webkit-background-size: cover;
 	-o-background-size: cover;
+  overflow: hidden;
+  margin: auto;
 }
 
 .header {
 	position: relative;
 	height: fit-content;
-	min-height: 100px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: rgb(54, 54, 54);
+	background-color: rgb(54, 53, 53);
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 }
