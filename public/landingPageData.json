@@ -11,69 +11,66 @@
     "projects": [
       {
         "title": "Red-Ping",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "startDate": "2023",
+        "description": "An App colaberated on to alert friends when one is in emergency situations wether mental or physical.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images//ping.png"
         ],
-        "url": "",
+        "url": "https://github.com/Red-Ping",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Vege-Bot",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
           {
             "class": "devicon-react-original",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-rust-original",
+            "name": "Rust"
+          }
+        ]
+      },
+      {
+        "title": "Vege-Bot",
+        "startDate": "2020",
+        "description": "A discord bot for a server of friends. Ai chat features trained from friends message data, along with other features.",
+        "images": [
+          "images/vege.png"
+        ],
+        "url": "https://github.com/Tomay0/VegeBot",
+        "technologies": [
+          {
+            "class": "devicon-bootstrap-original",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       },
       {
         "title": "Beans MC",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "startDate": "2023",
+        "description": "A community self coded minigames minecraft server with its own website.!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/beans.png"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-java-plain",
+            "name": "Java"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       }
@@ -85,17 +82,6 @@
         "years": "10.2019 - present",
         "mainTech": [
           "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
         ]
       }
     ]
