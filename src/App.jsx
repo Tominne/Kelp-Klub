@@ -50,9 +50,16 @@ class App extends Component {
   }
 
   render() {
+    if (!this.state.sharedData || !this.state.sharedData.basic_info|| !this.state.sharedData.basic_info.image) {
+      return <div>Loading...</div>
+    }
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+      <div className='header'>
+         <img className='img centre slider-image' src='images/myProfile.jpg' alt="My Face" />
+         </div>
+        <Header
+        sharedData = {this.state.sharedData.basic_info} />
         <div className="background">
         </div>
 

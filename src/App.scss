@@ -17,6 +17,7 @@ html {
 
 .title-container {
 	height: 50px;
+  margin-bottom: 5%;
 }
 
 .title-styles {
@@ -31,8 +32,20 @@ html {
 
 header {
 	position: relative;
-	height: 520px;
-	min-height: 450px;
+	height: fit-content;
+	width: 100%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	text-align: center;
+	background-color: rgb(54, 54, 54);
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+}
+
+.header {
+	position: relative;
+	height: fit-content;
+	min-height: 100px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -40,11 +53,7 @@ header {
 	overflow: hidden;
 	background-color: rgb(54, 54, 54);
 	-webkit-background-size: cover;
-	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-	padding-top: 150px;
-	padding-bottom: 0;
 }
 
 .language-icon {
@@ -91,6 +100,7 @@ header h1 {
 
 .slider-image {
 	border: 5px solid rgb(32, 29, 31);
+  max-width: 200px;
 }
 
 .slider-tab {
@@ -113,16 +123,17 @@ header h1 {
 }
 
 #about h1 {
-	padding-top: 5%;
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: rgb(255, 255, 255);
 	text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
   color: #ccc;
+  margin-bottom: 20px;
 }
 
 .foto img {
@@ -166,7 +177,6 @@ p {
 }
 
 .project-title-settings {
-	margin-top: 5%;
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -220,6 +230,16 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.img {
+  max-width: 13%;
+	text-align: center;
+  margin: auto;
+  position: relative;
+  display: block;
+  margin-top: 30px;
+  background-color: #313131;
 }
 
 #resume {
@@ -427,3 +447,4 @@ footer a:focus {
 	margin-top: 50px;
 	font-size: 22px;
 }
+

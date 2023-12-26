@@ -1,5 +1,8 @@
+
 {
     "basic_info": {
+      "image": "images/myProfile.jpg"
+      ,
       "description_header": "Hi",
       "description": "👋 Welcome to Izzy's landing page 💜",
       "section_name": {
