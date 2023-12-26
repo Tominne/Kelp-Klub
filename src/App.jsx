@@ -4,6 +4,11 @@ import './App.scss'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
+import Switchboard from './switchboard'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { QueryClient, QueryClientProvider } from 'react-query';
+
+const queryClient = new QueryClient();
 
 class App extends Component {
   constructor(props) {
@@ -49,6 +54,7 @@ class App extends Component {
     })
   }
 
+
   render() {
     if (!this.state.sharedData || !this.state.sharedData.basic_info|| !this.state.sharedData.basic_info.image) {
       return <div>Loading...</div>
@@ -60,9 +66,20 @@ class App extends Component {
          </div>
         <Header
         sharedData = {this.state.sharedData.basic_info} />
-        <div className="background">
-        </div>
-
+<QueryClientProvider client={queryClient}>
+        <Router>
+        <nav className="background">
+         
+           
+              <Link to="/switchboard">Switchboard</Link>
+              
+          
+        </nav>
+         <Routes>
+          <Route path="/switchboard" Component={Switchboard} />
+         </Routes>
+        </Router>
+        </QueryClientProvider>
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
