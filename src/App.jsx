@@ -3,9 +3,9 @@ import $ from 'jquery'
 import './App.scss'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Projects from './components/Projects'
+
 import Switchboard from './switchboard'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+
 import { QueryClient, QueryClientProvider } from 'react-query';
 
 const queryClient = new QueryClient();
@@ -81,10 +81,7 @@ class App extends Component {
         />
         {this.state.showSwitchboard && <Switchboard />}
 
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
+        
 
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
