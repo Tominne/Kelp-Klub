@@ -3,9 +3,7 @@ import $ from 'jquery'
 import './App.scss'
 import Header from './components/Header'
 import Footer from './components/Footer'
-
 import Switchboard from './switchboard'
-
 import { QueryClient, QueryClientProvider } from 'react-query';
 
 const queryClient = new QueryClient();
@@ -81,7 +79,7 @@ class App extends Component {
         />
         {this.state.showSwitchboard && <Switchboard />}
 
-        
+       
 
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
