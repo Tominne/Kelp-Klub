@@ -5,7 +5,6 @@ import './App.scss'
 
 const fetchSwitchBoardData = async () => {
   return [
-  { name: 'Name', state: false },
   { name: 'Saggy MC', state: false},
   { name: 'Beans', state: false},
   { name: 'Harris', state: false},
@@ -23,19 +22,17 @@ const Switchboard = () => {
     }
   }, [data])
 
-  const toggleSwitch = (index) => {
-    setSwitches(switches.map((item, i) => i === index ? { ...item, state: !item.state} : item))
-  }
 
   if (isLoading) return 'Loading...'
   if (error) return 'Error has occured'
 
   return(
-    <div>
-      <h1>Izzy's Switchboard</h1>
+    <div className="switchboard">
+      <h1 className="title">Izzy's Switchboard</h1>
+      <br></br>
       {switches.map((item, index) => (
-        <div key={index}>
-          <h2>{item.name}</h2>
+        <div className="switchboard" key={index}>
+          <h2 className="switchboard">{item.name}:</h2>
          </div>
       ))}
     </div>

@@ -41,6 +41,8 @@ class Header extends Component {
       (props, prevProp) => true
     )
 
+    const textColor = this.state.checked ? '#353569' : '#baaa420'
+
     return (
       <header
         id="home"
@@ -62,8 +64,8 @@ class Header extends Component {
                 <HeaderTitleTypeAnimation />
               </div>
               <Switch
-                checked={this.state.checked}
-                onChange={this.onThemeSwitchChange}
+                checked={this.props.checked}
+                onChange={this.props.onThemeSwitchChange}
                 offColor="#baaa420"
                 onColor="#353569"
                 className="react-switch mx-auto"
@@ -103,6 +105,8 @@ class Header extends Component {
                 id="icon-switch"
               />
             </div>
+            <br></br>
+            <h4 className='toggle' style={{ color: textColor}}>toggle switchboard</h4>
           </div>
         </div>
       </header>

@@ -89,12 +89,12 @@ header {
 	z-index: -500;
 	border-top: 5px solid #696969;
 	border-radius: 0 0 5px 5px;
-	background-color: #3a3131;
+	background-color: #41292c;
 	color: white;
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(#fd3e81, 0.95);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -108,15 +108,17 @@ header {
 	padding-top: 80px;
 }
 
-header h1 {
+header h1 h2{
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #fffefe;
+	color: #fd3e81;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
+
+
 
 .slider-image {
 	border: 5px solid rgb(32, 29, 31);
@@ -126,6 +128,30 @@ header h1 {
 .slider-tab {
 	background-color: rgb(38, 31, 37);
 	height: 25px;
+}
+
+.switchboard {
+  color: #fd3e81;
+  font-size: x-large;
+  background-color: #2f2d2e;
+  text-align: center;
+  padding: 1%;
+}
+
+.toggle {
+  color: #a39ca0;
+}
+
+.title {
+  color: #d72483;
+  font-size: xx-large;
+  background-color: #41292c;
+  opacity: 90%;
+  text-align: center;
+  padding: 1%;
+  width: fit-content;
+  margin-left: 1%;
+  margin: auto;
 }
 
 .slider-iconfiy {

@@ -17,7 +17,14 @@ class App extends Component {
       foo: 'bar',
       resumeData: {},
       sharedData: {},
+      showSwitchboard: false,
     }
+    this.toggleSwitchboard = this.toggleSwitchboard.bind(this);
+  }
+
+ 
+  toggleSwitchboard() {
+    this.setState(prevState => ({ showSwitchboard: !prevState.showSwitchboard }));
   }
 
   componentDidMount() {
@@ -52,6 +59,8 @@ class App extends Component {
         alert(err)
       },
     })
+
+    
   }
 
 
@@ -60,26 +69,18 @@ class App extends Component {
       return <div>Loading...</div>
     }
     return (
+      <QueryClientProvider client={queryClient}>
       <div>
       <div className='header'>
          <img className='img centre slider-image' src='images/myProfile.jpg' alt="My Face" />
          </div>
         <Header
-        sharedData = {this.state.sharedData.basic_info} />
-<QueryClientProvider client={queryClient}>
-        <Router>
-        <nav className="background">
-         
-           
-              <Link to="/switchboard">Switchboard</Link>
-              
-          
-        </nav>
-         <Routes>
-          <Route path="/switchboard" Component={Switchboard} />
-         </Routes>
-        </Router>
-        </QueryClientProvider>
+        sharedData = {this.state.sharedData.basic_info} 
+        onThemeSwitchChange={this.toggleSwitchboard}
+        checked={this.state.showSwitchboard}
+        />
+        {this.state.showSwitchboard && <Switchboard />}
+
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
@@ -87,6 +88,7 @@ class App extends Component {
 
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
+      </QueryClientProvider>
     )
   }
 }
