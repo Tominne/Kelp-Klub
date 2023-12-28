@@ -68,7 +68,7 @@ class App extends Component {
     }
     return (
       <QueryClientProvider client={queryClient}>
-      <div>
+      <div className='body'>
       <div className='header'>
          <img className='img centre slider-image' src='images/myProfile.jpg' alt="My Face" />
          </div>
@@ -81,7 +81,7 @@ class App extends Component {
 
        
 
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+        <Footer className="foot" sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
       </QueryClientProvider>
     )

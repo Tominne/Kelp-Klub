@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 class Footer extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
@@ -16,7 +17,7 @@ class Footer extends Component {
 
     return (
       <footer>
-        <div className="col-md-12">
+        <div className="col-md-12 foot">
           <div className="social-links">{networks}</div>
 
           <div className="copyright py-4 text-center">
