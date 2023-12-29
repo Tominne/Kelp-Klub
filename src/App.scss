@@ -15,20 +15,16 @@ html, body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  min-height: (100vh - 60vh);
-  height: fit-content;
 }
 
 .title-container {
 	height: 50px;
-  margin-bottom: 9%;
-
+  margin-bottom: 4vh;
 }
 
 .title-styles {
 	font-family: 'Raleway', sans-serif;
 	font-size: 250%;
-  margin-bottom: 20px;
 }
 
 .header-icon {
@@ -81,7 +77,6 @@ header {
 	background-color: rgb(54, 53, 53);
 	-webkit-background-size: cover;
 	-o-background-size: cover;
-  min-height: (100vh - 90vh);
 }
 
 .language-icon {
@@ -148,6 +143,7 @@ header h1 h2{
 
 .toggle {
   color: #a39ca0;
+  
 }
 
 .title {
@@ -185,10 +181,6 @@ header h1 h2{
   margin-bottom: 30px;
 }
 
-.foot {
-  min-height: calc(100vh - 90vh);
-  overflow: hidden;
-}
 
 p {
   color: #ccc;
