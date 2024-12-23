@@ -1,10 +1,10 @@
 
 {
     "basic_info": {
-      "image": "images/myProfile.jpg"
+      "image": "images/kelp.gif"
       ,
-      "description_header": "Hi",
-      "description": "👋 Welcome to Izzy's landing page 💜",
+      "description_header": "Kelp",
+      "description": "👋 Welcome to Kelp Klub 💜",
       "section_name": {
 
         "projects": "Projects"
@@ -13,11 +13,11 @@
     },
     "projects": [
       {
-        "title": "Red-Ping",
-        "startDate": "2023",
-        "description": "An App colaberated on to alert friends when one is in emergency situations wether mental or physical.",
+        "title": "collaberation/Play",
+        "startDate": "2024",
+        "description": "Playing will caring ideas amoungst community",
         "images": [
-          "images//ping.png"
+          "images//kelp.gif"
         ],
         "url": "https://github.com/Red-Ping",
         "technologies": [

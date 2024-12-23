@@ -1,20 +1,20 @@
 {
     "basic_info": {
-      "name": "Izzy Irvine",
-      "titles": [ "Welcome To Izzy's Landing Page!" ],
+      "name": "Kelp Klub",
+      "titles": [ "Welcome To Kelp Central" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com/Isaac-Irvine",
+          "url": "https://github.com/Tominne",
           "class": "fab fa-github"
         },
         {
           "name": "LinkIn",
-          "url": "https://nz.linkedin.com/in/isaac-irvine",
+          "url": "https://www.linkedin.com/in/min-iles-79bb2a221/",
           "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "images/kelp.gif"
     },
     "skills": {
       "icons": [

@@ -66,8 +66,8 @@ class Header extends Component {
               <Switch
                 checked={this.props.checked}
                 onChange={this.props.onThemeSwitchChange}
-                offColor="#d72483"
-                onColor="#fd3e81"
+                offColor="#254117"
+                onColor="#54764b"
                 className="react-switch mx-auto"
                 width={90}
                 height={40}
@@ -106,7 +106,7 @@ class Header extends Component {
               />
             </div>
             <br></br>
-            <h4 className='toggle' style={{ color: textColor}}>toggle switchboard</h4>
+            <h4 className='toggle' style={{ color: textColor}}>Click to explore seaweeds...</h4>
           </div>
         </div>
       </header>

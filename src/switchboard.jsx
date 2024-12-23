@@ -5,10 +5,10 @@ import './App.scss'
 
 const fetchSwitchBoardData = async () => {
   return [
-  { name: 'Saggy MC', state: false},
-  { name: 'Beans', state: false},
-  { name: 'Harris', state: false},
-  { name: 'Ark Server', state: false}
+  { name: 'Eat loads of carbon', state: false},
+  { name: 'Be a good home to the creatures even if they nibble on you', state: false},
+  { name: 'Green', state: false},
+  { name: 'If people think youre gross too bad', state: false}
   ]
 }
 
@@ -28,7 +28,7 @@ const Switchboard = () => {
 
   return(
     <div className="switchboard">
-      <h1 className="title">Izzy's Switchboard</h1>
+      <h1 className="title">What we can learn from seaweed...</h1>
       <br></br>
       {switches.map((item, index) => (
         <div className="switchboard" key={index}>

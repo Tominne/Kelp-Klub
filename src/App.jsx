@@ -70,7 +70,7 @@ class App extends Component {
       <QueryClientProvider client={queryClient}>
       <div className='body'>
       <div className='header'>
-         <img className='img centre slider-image' src='images/myProfile.jpg' alt="My Face" />
+         <img className='img centre slider-image' src='images/kelp.gif' alt="Kelp Gif"/>
          </div>
         <Header
         sharedData = {this.state.sharedData.basic_info} 
